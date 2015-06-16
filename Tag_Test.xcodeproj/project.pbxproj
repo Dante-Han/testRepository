@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E0323FF1ADFDE5200455CEF /* TLTagsControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0323FE1ADFDE5200455CEF /* TLTagsControl.m */; };
 		3E94A2FE1ADFDE0500FF6245 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E94A2FD1ADFDE0500FF6245 /* main.m */; };
 		3E94A3011ADFDE0500FF6245 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E94A3001ADFDE0500FF6245 /* AppDelegate.m */; };
 		3E94A3041ADFDE0500FF6245 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E94A3031ADFDE0500FF6245 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E0323FD1ADFDE5200455CEF /* TLTagsControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTagsControl.h; sourceTree = "<group>"; };
+		3E0323FE1ADFDE5200455CEF /* TLTagsControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTagsControl.m; sourceTree = "<group>"; };
 		3E94A2F81ADFDE0500FF6245 /* Tag_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tag_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E94A2FC1ADFDE0500FF6245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E94A2FD1ADFDE0500FF6245 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 		3E94A2FA1ADFDE0500FF6245 /* Tag_Test */ = {
 			isa = PBXGroup;
 			children = (
+				3E0323FD1ADFDE5200455CEF /* TLTagsControl.h */,
+				3E0323FE1ADFDE5200455CEF /* TLTagsControl.m */,
 				3E94A2FF1ADFDE0500FF6245 /* AppDelegate.h */,
 				3E94A3001ADFDE0500FF6245 /* AppDelegate.m */,
 				3E94A3021ADFDE0500FF6245 /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				3E94A3041ADFDE0500FF6245 /* ViewController.m in Sources */,
 				3E94A3011ADFDE0500FF6245 /* AppDelegate.m in Sources */,
+				3E0323FF1ADFDE5200455CEF /* TLTagsControl.m in Sources */,
 				3E94A2FE1ADFDE0500FF6245 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				3E94A31D1ADFDE0500FF6245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E94A31E1ADFDE0500FF6245 /* Build configuration list for PBXNativeTarget "Tag_TestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				3E94A3201ADFDE0500FF6245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

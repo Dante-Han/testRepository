@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TLTagsControl.h"
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *tagtext;
 
+@property (weak, nonatomic) IBOutlet TLTagsControl *tagScroll;
 
 @end
 
